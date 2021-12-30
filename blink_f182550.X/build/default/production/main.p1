@@ -1,11 +1,11 @@
 Version 4.0 HI-TECH Software Intermediate Code
 [p mainexit ]
-"9481 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h: 9481: extern volatile __bit TRISB1 __attribute__((address(0x7C99)));
-[v _TRISB1 `Vb ~T0 @X0 0 e@31897 ]
-"8740
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h: 8740: extern volatile __bit LATB1 __attribute__((address(0x7C51)));
-[v _LATB1 `Vb ~T0 @X0 0 e@31825 ]
+"9490 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h: 9490: extern volatile __bit TRISB4 __attribute__((address(0x7C9C)));
+[v _TRISB4 `Vb ~T0 @X0 0 e@31900 ]
+"8749
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h: 8749: extern volatile __bit LATB4 __attribute__((address(0x7C54)));
+[v _LATB4 `Vb ~T0 @X0 0 e@31828 ]
 [v F2783 `(v ~T0 @X0 1 tf1`ul ]
 "203 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\pic18.h
 [v __delay `JF2783 ~T0 @X0 0 e ]
@@ -13,11 +13,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 "17 ./config.h
 [p x PLLDIV  =  2        ]
 "18
-[p x CPUDIV  =  OSC1_PLL2 ]
+[p x CPUDIV  =  OSC2_PLL3 ]
 "19
 [p x USBDIV  =  2        ]
 "22
-[p x FOSC  =  HSPLL_HS   ]
+[p x FOSC  =  INTOSC_HS   ]
 "23
 [p x FCMEN  =  OFF       ]
 "24
@@ -41,7 +41,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "39
 [p x LPT1OSC  =  OFF     ]
 "40
-[p x MCLRE  =  ON        ]
+[p x MCLRE  =  OFF        ]
 "43
 [p x STVREN  =  ON       ]
 "44
@@ -566,8 +566,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _main ]
 [f ]
 "17
-[; ;main.c: 17:     TRISB1 = 0;
-[e = _TRISB1 -> -> 0 `i `b ]
+[; ;main.c: 17:     TRISB4 = 0;
+[e = _TRISB4 -> -> 0 `i `b ]
 "19
 [; ;main.c: 19:     while(1)
 [e :U 329 ]
@@ -575,17 +575,17 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 20:     {
 {
 "21
-[; ;main.c: 21:         LATB1 = 1;
-[e = _LATB1 -> -> 1 `i `b ]
+[; ;main.c: 21:         LATB4 = 1;
+[e = _LATB4 -> -> 1 `i `b ]
 "22
-[; ;main.c: 22:         _delay((unsigned long)((500)*(48000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 48000000 `l `d .4000.0 `ul ]
+[; ;main.c: 22:         _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
 "23
-[; ;main.c: 23:         LATB1 = 0;
-[e = _LATB1 -> -> 0 `i `b ]
+[; ;main.c: 23:         LATB4 = 0;
+[e = _LATB4 -> -> 0 `i `b ]
 "24
-[; ;main.c: 24:         _delay((unsigned long)((500)*(48000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 48000000 `l `d .4000.0 `ul ]
+[; ;main.c: 24:         _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
 "25
 [; ;main.c: 25:     }
 }

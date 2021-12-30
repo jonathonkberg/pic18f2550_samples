@@ -27,13 +27,13 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"14 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\blink_f182550.X\main.c
+"14 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\blink_f182550.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"8740 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h
-[v _LATB1 LATB1 `VEb  1 e 0 @31825 ]
-"9481
-[v _TRISB1 TRISB1 `VEb  1 e 0 @31897 ]
-"14 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\blink_f182550.X\main.c
+"8749 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h
+[v _LATB4 LATB4 `VEb  1 e 0 @31828 ]
+"9490
+[v _TRISB4 TRISB4 `VEb  1 e 0 @31900 ]
+"14 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\blink_f182550.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
 "28

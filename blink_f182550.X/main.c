@@ -9,18 +9,18 @@
 #include "config.h"
 
 
-#define _XTAL_FREQ 48000000
+#define _XTAL_FREQ 1000000
 
 void main(void) {
     
     //LATB1 = 0;
-    TRISB1 = 0; //0 for out, 1 for in
+    TRISB4 = 0; //0 for out, 1 for in
     
     while(1)
     {
-        LATB1 = 1; //or LATC |= (1<<2); or LATCbits.LATC2 = 1
+        LATB4 = 1; //or LATC |= (1<<2); or LATCbits.LATC2 = 1
         __delay_ms(500); //function for XC compiler
-        LATB1 = 0; //or LATC &= ~(1<<2); or LATCbits.LATC2 = 0
+        LATB4 = 0; //or LATC &= ~(1<<2); or LATCbits.LATC2 = 0
         __delay_ms(500);
     }
     

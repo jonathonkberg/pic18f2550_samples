@@ -1,14 +1,14 @@
 __S0 8000 0 ABS 0
-__S1 3 0 ABS 0
+__S1 2 0 ABS 0
 __S2 0 0 ABS 0
 __S4 0 0 ABS 0
 __S5 0 0 ABS 0
 __Hintentry 0 0 ABS 0
 __Lintentry 0 0 ABS 0
-_main 7FC2 0 CODE 0
+_main 7FD2 0 CODE 0
 ___sp 0 0 STACK 2
 start 0 0 CODE 0
-_LATB1 7C51 0 ABS 0
+_LATB4 7C54 0 ABS 0
 __Hirdata 0 0 CODE 0
 __Lirdata 0 0 CODE 0
 __HRAM 0 0 ABS 0
@@ -30,7 +30,7 @@ __Lbss 0 0 RAM 1
 ___param_bank 0 0 ABS 0
 __Hnvrram 0 0 COMRAM 1
 __Lnvrram 0 0 COMRAM 1
-_TRISB1 7C99 0 ABS 0
+_TRISB4 7C9C 0 ABS 0
 __Heeprom_data 0 0 EEDATA 0
 __Leeprom_data 0 0 EEDATA 0
 __Hintsave_regs 0 0 BIGRAM 1
@@ -76,7 +76,7 @@ __end_of_main 8000 0 CODE 0
 __Lrbss 0 0 COMRAM 1
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
-end_of_initialization 7FBC 0 CODE 0
+end_of_initialization 7FCC 0 CODE 0
 __Hibigdata 0 0 CODE 0
 __Libigdata 0 0 CODE 0
 __Hifardata 0 0 CODE 0
@@ -101,10 +101,10 @@ __Hbank7 0 0 ABS 0
 __Lbank7 0 0 ABS 0
 __Htext0 0 0 ABS 0
 __Ltext0 0 0 ABS 0
-__ptext0 7FC2 0 CODE 0
+__ptext0 7FD2 0 CODE 0
 __Hclrtext 0 0 ABS 0
 __Lclrtext 0 0 ABS 0
-__end_of__initialization 7FBC 0 CODE 0
+__end_of__initialization 7FCC 0 CODE 0
 ___rparam_used 1 0 ABS 0
 __Hidata 0 0 CODE 0
 __Lidata 0 0 CODE 0
@@ -121,7 +121,7 @@ __HcstackCOMRAM 0 0 ABS 0
 __Lspace_0 0 0 ABS 0
 __LcstackCOMRAM 0 0 ABS 0
 __pcstackCOMRAM 1 0 COMRAM 1
-__Hspace_1 3 0 ABS 0
+__Hspace_1 2 0 ABS 0
 __Lspace_1 0 0 ABS 0
 __Hsmallconst 0 0 SMALLCONST 0
 __Lsmallconst 0 0 SMALLCONST 0
@@ -131,7 +131,7 @@ __Hnvbit 0 0 COMRAM 1
 __Lnvbit 0 0 COMRAM 1
 __Hcinit 0 0 ABS 0
 __Lcinit 0 0 ABS 0
-__pcinit 7FBC 0 CODE 0
+__pcinit 7FCC 0 CODE 0
 __ramtop 800 0 RAM 0
 __mediumconst 0 0 MEDIUMCONST 0
 __size_of_main 0 0 ABS 0
@@ -151,29 +151,29 @@ intlevel0 0 0 CODE 0
 intlevel1 0 0 CODE 0
 intlevel2 0 0 CODE 0
 intlevel3 0 0 CODE 0
-start_initialization 7FBC 0 CODE 0
-__initialization 7FBC 0 CODE 0
+start_initialization 7FCC 0 CODE 0
+__initialization 7FCC 0 CODE 0
 __activetblptr 0 0 ABS 0
 %segments
 reset_vec 0 3 CODE 0 0
-cstackCOMRAM 1 2 COMRAM 1 1
-text0 7FC2 7FFF CODE 7FC2 0
-cinit 7FBC 7FC1 CODE 7FBC 0
+cstackCOMRAM 1 1 COMRAM 1 1
+text0 7FD2 7FFF CODE 7FD2 0
+cinit 7FCC 7FD1 CODE 7FCC 0
 %locals
 dist/default/production\blink_f182550.X.production.o
 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h
-C:\Users\jpk12\AppData\Local\Temp\xcAs1t4.s
-477 7FBC 0 CODE 0
-479 7FBC 0 CODE 0
-482 7FBC 0 CODE 0
-488 7FBC 0 CODE 0
-490 7FBC 0 CODE 0
-491 7FBE 0 CODE 0
+C:\Users\jpk12\AppData\Local\Temp\xcAskng.s
+477 7FCC 0 CODE 0
+479 7FCC 0 CODE 0
+482 7FCC 0 CODE 0
+488 7FCC 0 CODE 0
+490 7FCC 0 CODE 0
+491 7FCE 0 CODE 0
 main.c
-14 7FC2 0 CODE 0
-17 7FC2 0 CODE 0
-19 7FC4 0 CODE 0
-21 7FC4 0 CODE 0
-22 7FC6 0 CODE 0
-23 7FDE 0 CODE 0
-24 7FE0 0 CODE 0
+14 7FD2 0 CODE 0
+17 7FD2 0 CODE 0
+19 7FD4 0 CODE 0
+21 7FD4 0 CODE 0
+22 7FD6 0 CODE 0
+23 7FE6 0 CODE 0
+24 7FE8 0 CODE 0

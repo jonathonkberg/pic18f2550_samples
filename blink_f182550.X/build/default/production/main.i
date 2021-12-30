@@ -18,11 +18,11 @@
 # 1 "./config.h" 1
 # 17 "./config.h"
 #pragma config PLLDIV = 2
-#pragma config CPUDIV = OSC1_PLL2
+#pragma config CPUDIV = OSC2_PLL3
 #pragma config USBDIV = 2
 
 
-#pragma config FOSC = HSPLL_HS
+#pragma config FOSC = INTOSC_HS
 #pragma config FCMEN = OFF
 #pragma config IESO = OFF
 
@@ -40,7 +40,7 @@
 #pragma config CCP2MX = ON
 #pragma config PBADEN = OFF
 #pragma config LPT1OSC = OFF
-#pragma config MCLRE = ON
+#pragma config MCLRE = OFF
 
 
 #pragma config STVREN = ON
@@ -5088,14 +5088,14 @@ extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 void main(void) {
 
 
-    TRISB1 = 0;
+    TRISB4 = 0;
 
     while(1)
     {
-        LATB1 = 1;
-        _delay((unsigned long)((500)*(48000000/4000.0)));
-        LATB1 = 0;
-        _delay((unsigned long)((500)*(48000000/4000.0)));
+        LATB4 = 1;
+        _delay((unsigned long)((500)*(1000000/4000.0)));
+        LATB4 = 0;
+        _delay((unsigned long)((500)*(1000000/4000.0)));
     }
 
     return;
