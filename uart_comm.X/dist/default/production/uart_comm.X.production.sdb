@@ -3,9 +3,11 @@
 [d edition pro ]
 [d chip 18F2550 ]
 [d frameptr 4065 ]
-"25 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_comm.X/uart_tools.h
+"12 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_comm.X/uart_tools.h
+[v _uart_init uart_init `(v  1 e 1 0 ]
+"26
 [v _uart_send uart_send `(v  1 e 1 0 ]
-"59
+"62
 [v _uart_read uart_read `(uc  1 e 1 0 ]
 "4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
@@ -33,7 +35,7 @@
 [v ___omul __omul `(uo  1 e 8 0 ]
 "16 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_comm.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"30
+"40
 [v _blink blink `(v  1 e 1 0 ]
 "4449 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h
 [v _TXREG TXREG `VEuc  1 e 1 @4013 ]
@@ -41,6 +43,8 @@
 [v _RCREG RCREG `VEuc  1 e 1 @4014 ]
 "4473
 [v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4485
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
 "7837
 [v _BRG16 BRG16 `VEb  1 e 0 @32195 ]
 "7840
@@ -51,6 +55,12 @@
 [v _GIE GIE `VEb  1 e 0 @32663 ]
 "8749
 [v _LATB4 LATB4 `VEb  1 e 0 @31828 ]
+"8752
+[v _LATB5 LATB5 `VEb  1 e 0 @31829 ]
+"8755
+[v _LATB6 LATB6 `VEb  1 e 0 @31830 ]
+"8758
+[v _LATB7 LATB7 `VEb  1 e 0 @31831 ]
 "8950
 [v _PEIE PEIE `VEb  1 e 0 @32662 ]
 "9106
@@ -65,6 +75,12 @@
 [v _SYNC SYNC `VEb  1 e 0 @32100 ]
 "9490
 [v _TRISB4 TRISB4 `VEb  1 e 0 @31900 ]
+"9493
+[v _TRISB5 TRISB5 `VEb  1 e 0 @31901 ]
+"9496
+[v _TRISB6 TRISB6 `VEb  1 e 0 @31902 ]
+"9499
+[v _TRISB7 TRISB7 `VEb  1 e 0 @31903 ]
 "9511
 [v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
 "9514
@@ -78,10 +94,25 @@
 "16 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_comm.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"28
+"18
+[v main@send_message send_message `uc  1 a 1 4 ]
+"38
 } 0
+"26 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_comm.X/uart_tools.h
+[v _uart_send uart_send `(v  1 e 1 0 ]
+{
+[v uart_send@data data `uc  1 a 1 wreg ]
+[v uart_send@data data `uc  1 a 1 wreg ]
+[v uart_send@data data `uc  1 a 1 0 ]
 "30
+} 0
+"12
+[v _uart_init uart_init `(v  1 e 1 0 ]
+{
+"24
+} 0
+"40 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_comm.X\main.c
 [v _blink blink `(v  1 e 1 0 ]
 {
-"37
+"53
 } 0

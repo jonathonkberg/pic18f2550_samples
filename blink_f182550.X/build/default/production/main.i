@@ -17,12 +17,12 @@
 
 # 1 "./config.h" 1
 # 17 "./config.h"
-#pragma config PLLDIV = 2
-#pragma config CPUDIV = OSC2_PLL3
+#pragma config PLLDIV = 4
+#pragma config CPUDIV = OSC1_PLL2
 #pragma config USBDIV = 2
 
 
-#pragma config FOSC = INTOSC_HS
+#pragma config FOSC = HSPLL_HS
 #pragma config FCMEN = OFF
 #pragma config IESO = OFF
 
@@ -5093,9 +5093,9 @@ void main(void) {
     while(1)
     {
         LATB4 = 1;
-        _delay((unsigned long)((500)*(1000000/4000.0)));
+        _delay((unsigned long)((500)*(48000000/4000.0)));
         LATB4 = 0;
-        _delay((unsigned long)((500)*(1000000/4000.0)));
+        _delay((unsigned long)((500)*(48000000/4000.0)));
     }
 
     return;

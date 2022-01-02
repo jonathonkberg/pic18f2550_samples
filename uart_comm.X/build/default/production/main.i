@@ -124,12 +124,12 @@ typedef uint32_t uint_fast32_t;
 
 # 1 "./config.h" 1
 # 17 "./config.h"
-#pragma config PLLDIV = 2
-#pragma config CPUDIV = OSC2_PLL3
+#pragma config PLLDIV = 4
+#pragma config CPUDIV = OSC1_PLL2
 #pragma config USBDIV = 2
 
 
-#pragma config FOSC = INTOSC_HS
+#pragma config FOSC = HSPLL_HS
 #pragma config FCMEN = OFF
 #pragma config IESO = OFF
 
@@ -5180,7 +5180,8 @@ void uart_init()
 {
     BRGH = 1;
     BRG16 = 0;
-    SPBRG = 3;
+    SPBRGH = 0X01;
+    SPBRG = 0X38;
     SYNC = 0;
     SPEN = 1;
     TRISC6 = 1;
@@ -5194,14 +5195,7 @@ void uart_send(uint8_t data)
     while(!TRMT);
     TXREG = data;
 }
-
-void uart_send_string(char *text)
-{
-    uint16_t i;
-    for(i=0; text[i]!='\0'; i++)
-        uart_send(text[i]);
-}
-
+# 41 "./uart_tools.h"
 uint8_t uart_tx_empty()
 {
     return TRMT;
@@ -5244,12 +5238,22 @@ void blink();
 
 void main(void) {
 
-    uint8_t send_message = 0xFF;
+    uint8_t send_message = 0;
     TRISB4 = 0;
+    TRISB5 = 1;
+    TRISB6 = 1;
+    TRISB7 = 1;
+
+    uart_init();
+
 
     while(1)
     {
         blink();
+        _delay((unsigned long)((3000)*(48000000/4000.0)));
+        uart_send(send_message);
+        send_message++;
+
 
     }
 
@@ -5260,7 +5264,13 @@ void blink()
 {
 
         LATB4 = 1;
-        _delay((unsigned long)((500)*(500000/4000.0)));
+        LATB5 = 1;
+        LATB6 = 1;
+        LATB7 = 1;
+        _delay((unsigned long)((500)*(48000000/4000.0)));
         LATB4 = 0;
-        _delay((unsigned long)((500)*(500000/4000.0)));
+        LATB5 = 0;
+        LATB6 = 0;
+        LATB7 = 0;
+        _delay((unsigned long)((500)*(48000000/4000.0)));
 }

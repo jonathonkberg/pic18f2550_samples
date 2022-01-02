@@ -13,7 +13,8 @@ void uart_init()
 {
     BRGH = 1; //high speed baud
     BRG16 = 0; //8 bit
-    SPBRG = 3; //7812.5 baud rate
+    SPBRGH = 0X01; //9615 baud rate
+    SPBRG = 0X38;
     SYNC = 0; //set asynchronous
     SPEN = 1; //select TX and RX functionality
     TRISC6 = 1;
@@ -28,12 +29,14 @@ void uart_send(uint8_t data)
     TXREG = data;
 }
 
+/*
 void uart_send_string(char *text)
 {
     uint16_t i;
     for(i=0; text[i]!='\0'; i++)
         uart_send(text[i]);
 }
+*/
 
 uint8_t uart_tx_empty()
 {

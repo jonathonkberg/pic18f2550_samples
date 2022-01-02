@@ -9,7 +9,7 @@
 #include "config.h"
 
 
-#define _XTAL_FREQ 1000000
+#define _XTAL_FREQ 48000000
 
 void main(void) {
     

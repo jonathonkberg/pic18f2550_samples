@@ -11,13 +11,13 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v __delay `JF2783 ~T0 @X0 0 e ]
 [p i __delay ]
 "17 ./config.h
-[p x PLLDIV  =  2        ]
+[p x PLLDIV  =  4  ]
 "18
-[p x CPUDIV  =  OSC2_PLL3 ]
+[p x CPUDIV  =  OSC1_PLL2  ]
 "19
 [p x USBDIV  =  2        ]
 "22
-[p x FOSC  =  INTOSC_HS   ]
+[p x FOSC  =  HSPLL_HS  ]
 "23
 [p x FCMEN  =  OFF       ]
 "24
@@ -578,14 +578,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 21:         LATB4 = 1;
 [e = _LATB4 -> -> 1 `i `b ]
 "22
-[; ;main.c: 22:         _delay((unsigned long)((500)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;main.c: 22:         _delay((unsigned long)((500)*(48000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 48000000 `l `d .4000.0 `ul ]
 "23
 [; ;main.c: 23:         LATB4 = 0;
 [e = _LATB4 -> -> 0 `i `b ]
 "24
-[; ;main.c: 24:         _delay((unsigned long)((500)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;main.c: 24:         _delay((unsigned long)((500)*(48000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 48000000 `l `d .4000.0 `ul ]
 "25
 [; ;main.c: 25:     }
 }
