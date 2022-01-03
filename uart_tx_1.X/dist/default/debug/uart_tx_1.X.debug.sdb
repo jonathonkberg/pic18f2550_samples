@@ -1,0 +1,119 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2550 ]
+[d frameptr 4065 ]
+"12 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_tx_1.X/uart_tools.h
+[v _uart_init uart_init `(v  1 e 1 0 ]
+"26
+[v _uart_send uart_send `(v  1 e 1 0 ]
+"62
+[v _uart_read uart_read `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"20 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_tx_1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"60
+[v _blink blink `(v  1 e 1 0 ]
+"69
+[v _tx_blink tx_blink `(v  1 e 1 0 ]
+"3035 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"4449
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"4461
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"4473
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4485
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"7837
+[v _BRG16 BRG16 `VEb  1 e 0 @32195 ]
+"7840
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"7996
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"8530
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"8749
+[v _LATB4 LATB4 `VEb  1 e 0 @31828 ]
+"8950
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"9031
+[v _RB2 RB2 `VEb  1 e 0 @31754 ]
+"9034
+[v _RB3 RB3 `VEb  1 e 0 @31755 ]
+"9106
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"9109
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"9145
+[v _RX9 RX9 `VEb  1 e 0 @32094 ]
+"9205
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"9286
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"9511
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"9514
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"9517
+[v _TRMT TRMT `VEb  1 e 0 @32097 ]
+"9559
+[v _TX9 TX9 `VEb  1 e 0 @32102 ]
+"9577
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"20 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_tx_1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"22
+[v main@send_message send_message `uc  1 a 1 6 ]
+"58
+} 0
+"26 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_tx_1.X/uart_tools.h
+[v _uart_send uart_send `(v  1 e 1 0 ]
+{
+[v uart_send@data data `uc  1 a 1 wreg ]
+[v uart_send@data data `uc  1 a 1 wreg ]
+[v uart_send@data data `uc  1 a 1 0 ]
+"30
+} 0
+"12
+[v _uart_init uart_init `(v  1 e 1 0 ]
+{
+"24
+} 0
+"69 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_tx_1.X\main.c
+[v _tx_blink tx_blink `(v  1 e 1 0 ]
+{
+"71
+[v tx_blink@i i `i  1 a 2 2 ]
+"75
+} 0
+"60
+[v _blink blink `(v  1 e 1 0 ]
+{
+"67
+} 0
