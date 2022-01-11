@@ -23,7 +23,7 @@ temp COMRAM 1 6 6 1 1
 intcode CODE 0 8 8 6 1
 bssCOMRAM COMRAM 1 5 5 1 1
 config CONFIG 4 300000 300000 E 1
-$C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
+$C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
 idloc IDLOC 5 200000 200000 8 1
 init CODE 0 E E 4 1
 reset_vec CODE 0 0 0 4 1
@@ -68,24 +68,24 @@ MEDIUMCONST 800-7FFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\uart_rx_1.X.production.o
-8 intcode CODE >1067:C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
-8 intcode CODE >111:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-12 intcode_body CODE >111:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-14 intcode_body CODE >113:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-22 intcode_body CODE >115:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-26 intcode_body CODE >116:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-36 intcode_body CODE >117:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-3C intcode_body CODE >118:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-4C intcode_body CODE >119:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-4E intcode_body CODE >121:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-4E intcode_body CODE >122:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-50 intcode_body CODE >124:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-54 text2 CODE >102:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-54 text2 CODE >105:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-56 text2 CODE >106:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-6C text2 CODE >107:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-6E text2 CODE >108:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-84 text2 CODE >109:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+8 intcode CODE >1067:C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
+8 intcode CODE >42:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+12 intcode_body CODE >42:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+14 intcode_body CODE >44:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+22 intcode_body CODE >46:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+26 intcode_body CODE >47:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+36 intcode_body CODE >48:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+3C intcode_body CODE >49:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+4C intcode_body CODE >50:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+4E intcode_body CODE >52:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+4E intcode_body CODE >53:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+50 intcode_body CODE >55:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+54 text2 CODE >33:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+54 text2 CODE >36:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+56 text2 CODE >37:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+6C text2 CODE >38:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+6E text2 CODE >39:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+84 text2 CODE >40:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
 B2 text1 CODE >46:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X/uart_tools.h
 B2 text1 CODE >48:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X/uart_tools.h
 B4 text1 CODE >49:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X/uart_tools.h
@@ -101,21 +101,21 @@ CA text1 CODE >58:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samp
 CC text1 CODE >59:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X/uart_tools.h
 CE text1 CODE >60:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X/uart_tools.h
 D0 text1 CODE >61:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X/uart_tools.h
-86 text0 CODE >86:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-86 text0 CODE >88:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-8A text0 CODE >89:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-8C text0 CODE >90:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-8E text0 CODE >91:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-92 text0 CODE >96:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
-D2 cinit CODE >513:C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
-D2 cinit CODE >515:C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
-D2 cinit CODE >518:C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
-D2 cinit CODE >530:C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
-D4 cinit CODE >536:C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
-D4 cinit CODE >538:C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
-D6 cinit CODE >539:C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
-D8 cinit CODE >540:C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
-DA cinit CODE >541:C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
+86 text0 CODE >17:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+86 text0 CODE >19:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+8A text0 CODE >20:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+8C text0 CODE >21:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+8E text0 CODE >22:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+92 text0 CODE >27:C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+D2 cinit CODE >513:C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
+D2 cinit CODE >515:C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
+D2 cinit CODE >518:C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
+D2 cinit CODE >530:C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
+D4 cinit CODE >536:C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
+D4 cinit CODE >538:C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
+D6 cinit CODE >539:C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
+D8 cinit CODE >540:C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
+DA cinit CODE >541:C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -134,7 +134,7 @@ __Hspace_1 7 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\uart_rx_1.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\uart_rx_1.X.production.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\uart_rx_1.X.production.o
 _BRGH 7D62 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
@@ -144,28 +144,28 @@ _RCIE 7CED 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
 _RCIF 7CF5 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
 _SPEN 7D5F 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
 _SYNC 7D64 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
+___sp 0 0 STACK 2 stack C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
 _main 86 0 CODE 0 text0 dist/default/production\uart_rx_1.X.production.o
 btemp 6 0 COMRAM 1 temp dist/default/production\uart_rx_1.X.production.o
-start E 0 CODE 0 init C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
+start E 0 CODE 0 init C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
 __size_of_main 0 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\uart_rx_1.X.production.o
 __Hpowerup E 0 CODE 0 powerup dist/default/production\uart_rx_1.X.production.o
 ttemp5 7 0 COMRAM 1 temp dist/default/production\uart_rx_1.X.production.o
 ttemp6 A 0 COMRAM 1 temp dist/default/production\uart_rx_1.X.production.o
 ttemp7 E 0 COMRAM 1 temp dist/default/production\uart_rx_1.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
-intlevel0 0 0 CODE 0 text C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
-intlevel1 0 0 CODE 0 text C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
-intlevel2 0 0 CODE 0 text C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
-intlevel3 0 0 CODE 0 text C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
+__accesstop 60 0 ABS 0 - C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
+intlevel0 0 0 CODE 0 text C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
+intlevel1 0 0 CODE 0 text C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
+intlevel2 0 0 CODE 0 text C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
+intlevel3 0 0 CODE 0 text C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\uart_rx_1.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\uart_rx_1.X.production.o
 wtemp8 7 0 COMRAM 1 temp dist/default/production\uart_rx_1.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\uart_rx_1.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\uart_rx_1.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\uart_rx_1.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\uart_rx_1.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\uart_rx_1.X.production.o
@@ -179,7 +179,7 @@ _SPBRGH FB0 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
 _TRISB4 7C9C 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
 _TRISC6 7CA6 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
 _TRISC7 7CA7 0 ABS 0 - dist/default/production\uart_rx_1.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
+isa$xinst 0 0 ABS 0 - C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\uart_rx_1.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\uart_rx_1.X.production.o
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\uart_rx_1.X.production.o
@@ -201,7 +201,7 @@ __Htext1 0 0 ABS 0 text1 dist/default/production\uart_rx_1.X.production.o
 __Htext2 0 0 ABS 0 text2 dist/default/production\uart_rx_1.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\uart_rx_1.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\uart_rx_1.X.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\uart_rx_1.X.production.o
 __Hconfig 30000E 0 CONFIG 4 config dist/default/production\uart_rx_1.X.production.o
 _uart_rx_init B2 0 CODE 0 text1 dist/default/production\uart_rx_1.X.production.o
@@ -270,9 +270,9 @@ __Lcomram 0 0 ABS 0 comram dist/default/production\uart_rx_1.X.production.o
 __Lconfig 0 0 CONFIG 4 config dist/default/production\uart_rx_1.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\uart_rx_1.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\uart_rx_1.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
-stackhi 7FF 0 ABS 0 - C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
-stacklo 60 0 ABS 0 - C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
+isa$std 1 0 ABS 0 - C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
+stackhi 7FF 0 ABS 0 - C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
+stacklo 60 0 ABS 0 - C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
 __Lintcode 8 0 CODE 0 intcode dist/default/production\uart_rx_1.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\uart_rx_1.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\uart_rx_1.X.production.o
@@ -293,7 +293,7 @@ __ptext0 86 0 CODE 0 text0 dist/default/production\uart_rx_1.X.production.o
 __ptext1 B2 0 CODE 0 text1 dist/default/production\uart_rx_1.X.production.o
 __ptext2 54 0 CODE 0 text2 dist/default/production\uart_rx_1.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\uart_rx_1.X.production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.o
 __Lpowerup E 0 CODE 0 powerup dist/default/production\uart_rx_1.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\uart_rx_1.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\uart_rx_1.X.production.o

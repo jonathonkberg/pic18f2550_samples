@@ -204,7 +204,7 @@ cstackCOMRAM 1 6 COMRAM 1 1
 %locals
 dist/default/production\uart_rx_1.X.production.o
 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h
-C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
+C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
 513 D2 0 CODE 0
 515 D2 0 CODE 0
 518 D2 0 CODE 0
@@ -215,12 +215,12 @@ C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
 540 D8 0 CODE 0
 541 DA 0 CODE 0
 main.c
-86 86 0 CODE 0
-88 86 0 CODE 0
-89 8A 0 CODE 0
-90 8C 0 CODE 0
-91 8E 0 CODE 0
-96 92 0 CODE 0
+17 86 0 CODE 0
+19 86 0 CODE 0
+20 8A 0 CODE 0
+21 8C 0 CODE 0
+22 8E 0 CODE 0
+27 92 0 CODE 0
 ./uart_tools.h
 46 B2 0 CODE 0
 48 B2 0 CODE 0
@@ -238,24 +238,24 @@ main.c
 60 CE 0 CODE 0
 61 D0 0 CODE 0
 main.c
-102 54 0 CODE 0
-105 54 0 CODE 0
-106 56 0 CODE 0
-107 6C 0 CODE 0
-108 6E 0 CODE 0
-109 84 0 CODE 0
-C:\Users\jpk12\AppData\Local\Temp\xcAsdjk.s
+33 54 0 CODE 0
+36 54 0 CODE 0
+37 56 0 CODE 0
+38 6C 0 CODE 0
+39 6E 0 CODE 0
+40 84 0 CODE 0
+C:\Users\jpk12\AppData\Local\Temp\xcAsj4g.s
 1067 8 0 CODE 0
 main.c
-111 8 0 CODE 0
+42 8 0 CODE 0
 main.c
-111 12 0 CODE 0
-113 14 0 CODE 0
-115 22 0 CODE 0
-116 26 0 CODE 0
-117 36 0 CODE 0
-118 3C 0 CODE 0
-119 4C 0 CODE 0
-121 4E 0 CODE 0
-122 4E 0 CODE 0
-124 50 0 CODE 0
+42 12 0 CODE 0
+44 14 0 CODE 0
+46 22 0 CODE 0
+47 26 0 CODE 0
+48 36 0 CODE 0
+49 3C 0 CODE 0
+50 4C 0 CODE 0
+52 4E 0 CODE 0
+53 4E 0 CODE 0
+55 50 0 CODE 0

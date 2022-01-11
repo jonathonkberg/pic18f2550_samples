@@ -29,11 +29,11 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"86 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+"17 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"102
+"33
 [v _blink blink `(v  1 e 1 0 ]
-"111
+"42
 [v _ISR ISR `IIH(v  1 e 1 0 ]
 "4461 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2550.h
 [v _RCREG RCREG `VEuc  1 e 1 @4014 ]
@@ -69,25 +69,25 @@
 [v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
 "9514
 [v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
-"84 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+"15 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
 [v _rec_message rec_message `uc  1 e 1 0 ]
-"86
+"17
 [v _main main `(v  1 e 1 0 ]
 {
-"100
+"31
 } 0
 "46 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X/uart_tools.h
 [v _uart_rx_init uart_rx_init `(v  1 e 1 0 ]
 {
 "61
 } 0
-"102 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
+"33 C:\Users\jpk12\OneDrive\Documents\PIC_Examples\pic18f2550_samples\uart_rx_1.X\main.c
 [v _blink blink `(v  1 e 1 0 ]
 {
-"109
+"40
 } 0
-"111
+"42
 [v _ISR ISR `IIH(v  1 e 1 0 ]
 {
-"124
+"55
 } 0

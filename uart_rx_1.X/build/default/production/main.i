@@ -7,7 +7,12 @@
 # 1 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "main.c" 2
-# 76 "main.c"
+
+
+
+
+
+
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdint.h" 1 3
 
 
@@ -114,7 +119,7 @@ typedef int32_t int_fast32_t;
 typedef uint16_t uint_fast16_t;
 typedef uint32_t uint_fast32_t;
 # 144 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdint.h" 2 3
-# 76 "main.c" 2
+# 7 "main.c" 2
 
 # 1 "./config.h" 1
 # 17 "./config.h"
@@ -5166,7 +5171,7 @@ extern __attribute__((nonreentrant)) void _delaywdt(unsigned long);
 extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 33 "C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\xc.h" 2 3
 # 80 "./config.h" 2
-# 77 "main.c" 2
+# 8 "main.c" 2
 
 # 1 "./uart_tools.h" 1
 # 46 "./uart_tools.h"
@@ -5186,7 +5191,7 @@ void uart_rx_init()
     GIE = 1;
     CREN = 1;
 }
-# 78 "main.c" 2
+# 9 "main.c" 2
 
 
 

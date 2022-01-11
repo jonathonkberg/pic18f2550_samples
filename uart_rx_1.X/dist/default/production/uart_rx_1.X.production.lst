@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.32 build 20210201212658 
-                                                                                               Sun Jan 02 21:48:25 2022
+                                                                                               Mon Jan 03 19:01:17 2022
 
 Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1 
      1                           	processor	18F2550
@@ -127,7 +127,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
    113 ;;
    114 ;; *************** function _main *****************
    115 ;; Defined at:
-   116 ;;		line 86 in file "main.c"
+   116 ;;		line 17 in file "main.c"
    117 ;; Parameters:    Size  Location     Type
    118 ;;		None
    119 ;; Auto vars:     Size  Location     Type
@@ -161,20 +161,20 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
    147  000086                     _main:
    148                           	callstack 29
    149  000086                     
-   150                           ;main.c: 88:     blink();
+   150                           ;main.c: 19:     blink();
    151  000086  EC2A  F000         	call	_blink	;wreg free
    152  00008A                     
-   153                           ;main.c: 89:     TRISB4 = 0;
+   153                           ;main.c: 20:     TRISB4 = 0;
    154  00008A  9893               	bcf	3987,4,c	;volatile
    155  00008C                     
-   156                           ;main.c: 90:     LATB4 = 0;
+   156                           ;main.c: 21:     LATB4 = 0;
    157  00008C  988A               	bcf	3978,4,c	;volatile
    158  00008E                     
-   159                           ;main.c: 91:     uart_rx_init();
+   159                           ;main.c: 22:     uart_rx_init();
    160  00008E  EC59  F000         	call	_uart_rx_init	;wreg free
    161  000092                     l774:
    162                           
-   163                           ;main.c: 95:     {;main.c: 96:         _delay((unsigned long)((100)*(48000000/4000.0)));
+   163                           ;main.c: 26:     {;main.c: 27:         _delay((unsigned long)((100)*(48000000/4000.0)));
    164  000092  0E07               	movlw	7
    165  000094  6E04               	movwf	(??_main+1)^0,c
    166  000096  0E17               	movlw	23
@@ -275,7 +275,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
    261                           
    262 ;; *************** function _blink *****************
    263 ;; Defined at:
-   264 ;;		line 102 in file "main.c"
+   264 ;;		line 33 in file "main.c"
    265 ;; Parameters:    Size  Location     Type
    266 ;;		None
    267 ;; Auto vars:     Size  Location     Type
@@ -309,10 +309,10 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
    295  000054                     _blink:
    296                           	callstack 29
    297  000054                     
-   298                           ;main.c: 105:         LATB4 = 1;
+   298                           ;main.c: 36:         LATB4 = 1;
    299  000054  888A               	bsf	3978,4,c	;volatile
    300  000056                     
-   301                           ;main.c: 106:         _delay((unsigned long)((1000)*(48000000/4000.0)));
+   301                           ;main.c: 37:         _delay((unsigned long)((1000)*(48000000/4000.0)));
    302  000056  0E3D               	movlw	61
    303  000058  6E02               	movwf	(??_blink+1)^0,c
    304  00005A  0EE1               	movlw	225
@@ -326,10 +326,10 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
    312  000068  2E02               	decfsz	(??_blink+1)^0,f,c
    313  00006A  D7FA               	bra	u57
    314  00006C                     
-   315                           ;main.c: 107:         LATB4 = 0;
+   315                           ;main.c: 38:         LATB4 = 0;
    316  00006C  988A               	bcf	3978,4,c	;volatile
    317                           
-   318                           ;main.c: 108:         _delay((unsigned long)((1000)*(48000000/4000.0)));
+   318                           ;main.c: 39:         _delay((unsigned long)((1000)*(48000000/4000.0)));
    319  00006E  0E3D               	movlw	61
    320  000070  6E02               	movwf	(??_blink+1)^0,c
    321  000072  0EE1               	movlw	225
@@ -348,7 +348,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
    334                           
    335 ;; *************** function _ISR *****************
    336 ;; Defined at:
-   337 ;;		line 111 in file "main.c"
+   337 ;;		line 42 in file "main.c"
    338 ;; Parameters:    Size  Location     Type
    339 ;;		None
    340 ;; Auto vars:     Size  Location     Type
@@ -392,7 +392,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
    378                           	callstack 29
    379  000012  0006               	pop		; remove dummy address from shadow register refresh
    380  000014                     
-   381                           ;main.c: 113:     if(RCIF == 1)
+   381                           ;main.c: 44:     if(RCIF == 1)
    382  000014  AA9E               	btfss	3998,5,c	;volatile
    383  000016  EF0F  F000         	goto	i2u1_41
    384  00001A  EF11  F000         	goto	i2u1_40
@@ -400,10 +400,10 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
    386  00001E  EF28  F000         	goto	i2l64
    387  000022                     i2u1_40:
    388  000022                     
-   389                           ;main.c: 114:     {;main.c: 115:         rec_message = RCREG;
+   389                           ;main.c: 45:     {;main.c: 46:         rec_message = RCREG;
    390  000022  CFAE F005          	movff	4014,_rec_message	;volatile
    391  000026                     
-   392                           ;main.c: 116:         if(rec_message == 0x00)
+   392                           ;main.c: 47:         if(rec_message == 0x00)
    393  000026  5005               	movf	_rec_message^0,w,c
    394  000028  A4D8               	btfss	status,2,c
    395  00002A  EF19  F000         	goto	i2u2_41
@@ -413,7 +413,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
    399  000036                     i2u2_40:
    400  000036                     i2l782:
    401                           
-   402                           ;main.c: 117:             LATB4 = 0;
+   402                           ;main.c: 48:             LATB4 = 0;
    403  000036  988A               	bcf	3978,4,c	;volatile
    404  000038  EF27  F000         	goto	i2l61
    405  00003C                     i2l784:
@@ -425,11 +425,11 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
    411  000048  EF1B  F000         	goto	i2l782
    412  00004C                     i2u3_40:
    413  00004C                     
-   414                           ;main.c: 119:             LATB4 = 1;
+   414                           ;main.c: 50:             LATB4 = 1;
    415  00004C  888A               	bsf	3978,4,c	;volatile
    416  00004E                     i2l61:
    417                           
-   418                           ;main.c: 122:         RCIF = 0;
+   418                           ;main.c: 53:         RCIF = 0;
    419  00004E  9A9E               	bcf	3998,5,c	;volatile
    420  000050                     i2l64:
    421  000050  9206               	bcf	int$flags,1,c	;clear compiler interrupt flag (level 2)
@@ -828,7 +828,7 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V2.32 build 20210201212658 
-Symbol Table                                                                                   Sun Jan 02 21:48:25 2022
+Symbol Table                                                                                   Mon Jan 03 19:01:17 2022
 
                      l41 00D0                       l54 0084                       u47 009C  
                      u57 0060                       u67 0078                      l740 00B2  
